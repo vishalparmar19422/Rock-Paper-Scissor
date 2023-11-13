@@ -1,0 +1,55 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: 'Press Start 2P', cursive;
+
+  background-color: aqua;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(rgb(186, 39, 64),rgb(51, 7, 23));
+  flex-direction: column;
+}
+
+.title {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.ans {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(15, 95, 165),rgb(0, 0, 0));
+    border: none;
+    font-style:oblique;
+    font-weight: 600;
+    color:wheat
+}
+.answer{
+  text-align: center;
+}
+button:active{
+  background:linear-gradient(rgb(172, 203, 46),rgb(192, 124, 124));
+}
+
+h1{
+  color: white;
+}
